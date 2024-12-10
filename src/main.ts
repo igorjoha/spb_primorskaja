@@ -4,7 +4,6 @@ import { createPinia } from "pinia";
 import { createRouter, createWebHistory } from "vue-router";
 import LoginPage from "./views/LoginPage.vue";
 import CabinetPage from "./views/CabinetPage.vue";
-
 // Создание маршрутов
 const routes = [
   { path: "/", component: LoginPage },
